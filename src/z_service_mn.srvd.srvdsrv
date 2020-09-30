@@ -1,0 +1,4 @@
+@EndUserText.label: 'MN currency service'
+define service Z_service_mn {
+  expose I_Currency as currency;
+}

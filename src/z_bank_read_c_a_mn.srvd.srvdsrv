@@ -1,0 +1,5 @@
+@EndUserText.label: 'Z_BANK_READ_C_A_MN'
+@OData.schema.name: 'API_BANKDETAIL_SRV'
+define service Z_BANK_READ_C_A_MN {
+ expose ZA_BANKDETAIL7BA2A65BA5; 
+ } 

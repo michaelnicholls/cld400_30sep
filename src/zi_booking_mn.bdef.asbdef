@@ -1,0 +1,12 @@
+implementation unmanaged; // implementation in class zbp_i_booking_mn unique;
+
+define behavior for zi_booking_mn alias booking
+
+lock master
+//authorization master ( instance )
+etag master  LastChangedAt
+{
+  create;
+  update;
+  delete;
+}
